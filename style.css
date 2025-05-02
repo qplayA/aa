@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+input {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.question-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.answer {
+  color: green;
+  font-weight: bold;
+}
