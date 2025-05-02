@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>시소가 만든 파티 전용 족보</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="clock" style="text-align:center; font-weight:bold; font-size:1.2em; margin: 10px 0;"></div>
+  <h1>시소가 만든 파티 전용 족보</h1>
+  <input type="text" id="search" placeholder="문제를 입력하세요..." />
+  <div id="results"></div>
+  <script src="script.js"></script>
+
+<script>
+function updateClock() {
+  const now = new Date();
+  const timeStr = now.toLocaleString();
+  document.getElementById('clock').innerText = '현재 시각: ' + timeStr;
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+</body>
+
+</html>
